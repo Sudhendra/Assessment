@@ -8,8 +8,8 @@ Follow all the steps given in the in the assessment document. You are free to us
 2. Remove stopwords if you think its better.
 3. Ideally write a python function to dio this and you are free to use the same function to process the queries from queries.txt.
 
-#### Format of each datafile (.json)
-You should convert each row of the ```assessment_data.csv``` file into the following format and push it to the ES index. 
+#### Format of data to be pushed into ES index
+You should convert each row of the ```assessment_data.csv``` file into the following format and push it to your ES index. 
 ```
 {
     "id": 1,
