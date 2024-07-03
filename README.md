@@ -3,10 +3,22 @@ This is the assessment prior to the interview.
 
 Follow all the steps given in the in the assessment document. You are free to use any generative AI tools (ChatGPT, Claude, LLama etc.) for code generation/debugging. Make sure to include a comment for the part which was obtained using genAI tools.
 
-Query/data processing instructions:
+#### Query/data processing instructions:
 1. Use any text cleaning package to clean the data (from the .csv) before pushing the data to ElasticSearch.
 2. Remove stopwords if you think its better.
-3. Ideally write a python function to dio this and you are free to use the same function to process the queries from queries.txt.\
+3. Ideally write a python function to dio this and you are free to use the same function to process the queries from queries.txt.
+
+#### Format of each datafile (.json)
+You should convert each row of the ```assessment_data.csv``` file into the following format and push it to the ES index. 
+```
+{
+    "id": 1,
+    "title": "<data from the 'title' column of assessment_data.csv>",
+    "tags": "<data from the 'tags' column of assessment_data.csv>",
+    "url": "<data from the 'sourceURL' column of assessment_data.csv>",
+    "category": "<data from the 'category' column of assessment_data.csv>"
+}
+```
 
 Make sure you include instructions for running your code i.e., what command should be used to run your code. 
 
