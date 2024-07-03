@@ -1,0 +1,2 @@
+# This is the format for each results file
+<document ID> <title> <ES Score>
