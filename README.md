@@ -4,7 +4,7 @@ This is the assessment prior to the interview.
 Follow all the steps given in the in the assessment document. You are free to use any generative AI tools (ChatGPT, Claude, LLama etc.) for code generation/debugging. Make sure to include a comment for the part which was obtained using genAI tools.
 
 #### Setup:
-After teh setup of Docker, ElasticSearch and Kibana we suggest setting up a new conda environment with elasticsearch7 python package and all the necessary packages installed (pandas, etc.)
+After the setup of Docker, ElasticSearch and Kibana given in the assessment document, we suggest setting up a new conda environment with elasticsearch7 python package and all the necessary packages installed (pandas, etc.)
 
 #### Query/data processing instructions:
 1. Use any text cleaning package to clean the data (from the .csv) before pushing the data to ElasticSearch.
